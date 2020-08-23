@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+Array [
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-15tlx1l-App{margin:1em auto 0 auto;padding:1em 2em;border-radius:0.2em;}.css-15tlx1l-App:hover{background-color:#000000;color:#ffffff;}",
+      }
+    }
+    data-emotion-css="15tlx1l-App"
+  />,
+  <div
+    className="css-15tlx1l-App"
+  >
+    Welcome to my template!
+  </div>,
+]
+`;
