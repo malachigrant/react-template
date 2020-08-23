@@ -1,0 +1,39 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "src/main.js",
+  "repository": "https://github.com/malachigrant/website",
+  "author": "Malachi Grant <malachimgrant@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "test": "echo 'No tests available'",
+    "lint": "eslint src/ --fix",
+    "pretty": "prettier src/ --write",
+    "dev": "webpack-dev-server src/main.js",
+    "start": "yarn dev"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/eslint-parser": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-react": "^7.20.6",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.4.2",
+    "prettier": "^2.0.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
