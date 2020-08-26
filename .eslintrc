@@ -2,18 +2,16 @@
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parser": "@babel/eslint-parser",
   "env": {
-      "browser": true
+    "browser": true
   },
   "settings": {
-      "react": {
-          "version": "detect"
-      }
+    "react": {
+      "version": "detect"
+    }
   },
   "overrides": [
     {
-      "files": [
-        "__tests__/*.test.js"
-      ],
+      "files": ["__tests__/*.test.js"],
       "env": {
         "jest": true
       },
